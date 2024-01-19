@@ -59,16 +59,16 @@ nav {
 
 nav a {
     display: block;
-    color: var(--nav-link-color)
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color)
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color)
-    background-color: var(--nav-background-color)
-
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+}
