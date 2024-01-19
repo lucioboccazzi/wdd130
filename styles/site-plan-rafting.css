@@ -13,10 +13,10 @@
     --accent2-color:#C4CAFD;
 }
 .four {
-    --heading-font: 'Inconsolata', monospace, Black 900;
+    --heading-font: 'Inconsolata', monospace, serif;
 }
 .five {
-    --paragraph-font: 'Inconsolata', monospace; Regular 400; 
+    --paragraph-font: 'Inconsolata', monospace, serif; 
 }
 .six {
     --nav-background-color: #8994FB;
@@ -32,9 +32,12 @@
 }
 
 body {
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
-h1 {
-    font-family: 'Regular 400';
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color)
 }
