@@ -38,7 +38,8 @@ p {
 
 aside {
     width: 20em;
-    text-align: relative;
+    text-align: center;
+    position: relative;
 }
 
 aside h2 {
@@ -63,6 +64,6 @@ footer {
     margin: 1rem;
     border: 1px solid rgba (0,0,0,.1);
     padding: 1rem;
-    background-color: #535353;
-    color: #ffffff;
+    background-color: #6b6b6b;
+    color: #8da0ca;
 }
