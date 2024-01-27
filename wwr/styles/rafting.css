@@ -17,7 +17,7 @@
     --heading-font: 'Inconsolata', monospace, serif;
 }
 :root {
-    --paragraph-font: <link href="https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    --paragraph-font: @import url(https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900)
 }
 :root {
     --nav-background-color: #8994FB;
