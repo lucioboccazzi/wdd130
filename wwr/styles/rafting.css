@@ -33,6 +33,13 @@
 }
 
 /* Rest of Code */
+
+div .hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 header {
     padding: 20px;
     background-color: var(--secondary-color);
@@ -50,6 +57,7 @@ main {
     font-size: 20px;
     padding: 20px;
 }
+
 h1 {
     font-family: var(--paragraph-font);
     font-size: 20px;
@@ -67,17 +75,28 @@ p {
     padding: 25px;
 }
 
-main .home-grid {
-    display: grid;
+main .home-grid img {
+    position: relative;
     grid-template-columns : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.hero img {
+div img {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 article {
-    position: absolute;
+    position: relative;
+}
+
+footer {
+    margin-top : 200px;
+    }
+    
+footer img {
+    position: relative;
+    width: 2%;
+    height: auto;
+    align-self: center;
 }
