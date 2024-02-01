@@ -83,24 +83,31 @@ div .hero {
 
 .hero img {
     display: block;
-    width: 70%;
+    width: 50%;
     height: auto;
 }
 
 .hero2 img {
-    display: ;
+    width: 200%;
+    height: auto;
 }
 
 .hero h1 {
     font-family: var(--paragraph-font);
-    font-size: 20px;
+    font-size: 45px;
     position: absolute;
     color: var(--primary-color)
 }
 
 article {
-    position: relative;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px;
 }
+
 
 h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
