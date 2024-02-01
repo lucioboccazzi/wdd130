@@ -42,22 +42,33 @@
 
 /* Rest of Code */
 
-div .hero {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #05128A;
+    max-width: 1000px;
     padding: 20px;
     background-color: var(--secondary-color);
     font-size: 20px;
 } 
 
+.logo {
+    margin: 0 0.25rem 0 1rem;
+    width: 140px;
+    height: auto;
+}
+
 nav {
-    display: flex;
-    justify-content: space-around; 
+    text-align: center;
     font-size: 25px;
+}
+
+.navigation {
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
 }
 
 main {
@@ -66,12 +77,31 @@ main {
     padding: 20px;
 }
 
-h1 {
+div .hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+.hero2 img {
+    display: ;
+}
+
+.hero h1 {
     font-family: var(--paragraph-font);
     font-size: 20px;
     position: absolute;
     color: var(--primary-color)
 }
+
+article {
+    position: relative;
+}
+
 h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
     font-size: 20px;
@@ -88,14 +118,15 @@ main .home-grid img {
     grid-template-columns : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+div .home-grid {
+    display: grid;
+    align-items: start;
+}
+
 div img {
     display: block;
     width: 50%;
     height: auto;
-}
-
-article {
-    position: relative;
 }
 
 footer {
