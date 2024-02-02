@@ -43,50 +43,32 @@
 /* Rest of Code */
 
 header {
-    margin: 1rem auto;
+    margin: 1rem;
     border-bottom: 1px solid #05128A;
     max-width: 1500px;
     padding: 20px;
     background-color: var(--secondary-color);
-    font-size: 20px;
-    
-} 
+    font-size: 25px;
+}  
 
 .header {
     display: grid;
-    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
-    gap: 100px;
+    grid-template-rows: 200px 1fr;
+    justify-content: center; 
 }
 
 .logo img {
     margin: 0 0.25rem 0 1rem;
     width: 140px;
     height: auto;
-}
-
-nav {
-    text-align: center;
-    font-size: 25px;
-    
+    align-self: center ;
 }
 
 /* .navigation {
-    display: flex;
+    display: grid;
     list-style: none;
+    align-items: center; 
 } */
-
-.navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
-}
-
-.navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
-}
 
 main {
     font-family: var(--paragraph-font);
@@ -137,29 +119,27 @@ p {
     padding: 25px;
 }
 
-main .home-grid img {
-    position: relative;
-    grid-template-columns : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
 div .home-grid {
     display: grid;
-    align-items: start;
+    align-items: center;
+    grid-template-columns: 1fr;
 }
 
 div img {
-    display: block;
-    width: 50%;
+    width: 17%;
     height: auto;
 }
 
 footer {
-    margin-top : 200px;
-    }
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
     
 footer img {
-    position: relative;
-    width: 2%;
+    width: 4%;
     height: auto;
-    align-self: center;
 }
