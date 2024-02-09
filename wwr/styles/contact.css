@@ -196,3 +196,8 @@ footer img {
     grid-template-columns: 1fr;
     margin: 0.5rem 0;
 }
+
+.sociallinks { 
+    font-size: 20px;
+    align-self: center;
+}
