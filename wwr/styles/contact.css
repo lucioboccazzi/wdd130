@@ -82,12 +82,29 @@ main {
     padding: 50px;
 }
 
+.employees {
+    background-color:#92938f;
+    margin: 1rem auto;
+    max-width: 1300px;
+    padding: 20px;
+}
+
+.place-info {
+    background-color:#cdcdcd;
+    margin: 1rem;
+    max-width: 400px;
+    max-height: 150px;
+    padding: 20px;
+}
+
 .happy-employee1 {
     display: grid;
     grid-template-columns: 250px 1fr;
     align-items: center;
     max-width: 1500px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .happy-employee2 {
@@ -96,6 +113,8 @@ main {
     align-items: center;
     max-width: 1500px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .happy-employee3 {
@@ -104,6 +123,57 @@ main {
     align-items: center;
     max-width: 1500px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.5em;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
 }
 
 footer {
@@ -118,4 +188,11 @@ footer {
 footer img {
     width: 4%;
     height: auto;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    margin: 0.5rem 0;
 }
