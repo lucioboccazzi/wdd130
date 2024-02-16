@@ -96,6 +96,12 @@ footer {
     color: #8da0ca;
 }
 
+.temple-box a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
 .grid {
     display: grid;
     align-items: center;
