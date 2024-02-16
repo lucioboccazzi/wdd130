@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
@@ -10,6 +10,8 @@ header,.grid, footer {
 }
 
 nav {
+    display: grid;
+    grid-template-rows: 1fr;
     background-color: steelblue;
     padding: 1rem;
     display: flex;
@@ -18,12 +20,17 @@ nav {
 }
  
 nav a {
-    display: block;
     padding: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 h1 {
@@ -47,13 +54,14 @@ p {
 aside {
     width: 20em;
     text-align: center;
+    align-items: center;
     position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 0px;
+    left: 100px;
 }
 
 aside img {
@@ -71,7 +79,19 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid RGB(0,0,0,.1);
-    padding: 1rem;
+    padding: 2rem;
+    align-items: center;
+    background-color: #6b6b6b;
+    color: #c2d0f0;
+}
+
+.temple-box {
+    align-items: normal;
+    margin: 1rem;
+    border: 1px solid RGB(0,0,0,.1);
+    padding: 1.8rem;
+    padding-right: 15%;
+    align-items: center;
     background-color: #6b6b6b;
     color: #8da0ca;
 }
