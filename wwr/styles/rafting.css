@@ -82,7 +82,7 @@ main {
     padding: 20px;
 }
 
-.hero h1 p {
+.hero h1 {
     font-family: var(--paragraph-font);
     font-size: 45px;
     position: relative;
@@ -121,7 +121,7 @@ article {
     padding: 5px;
 }
 
-.hero p {
+.hero h2 {
     text-align: left;
     color: #FFFFFF;
 }
