@@ -1,5 +1,11 @@
 :root {
-    --base-color: darkblue;
+    --base-color: rgb(120, 120, 175);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -35,10 +41,7 @@ main {
 
 aside {
     width: 500px;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 5px;
-    background-color: rgb(37, 37, 165);
+    background-color: rgb(50, 50, 185);
     color: white;
     text-align: center;
 }
@@ -48,8 +51,24 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+
 footer {
     margin-top: 10px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: var(--base-color);
+    color: white;
 }
