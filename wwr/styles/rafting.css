@@ -74,10 +74,16 @@ article {
     border: 2px black solid;
     background-color: var(--secundary-color);
     width: 100%;
+    color: var(--accent2-color)
 }
 
 .hero article img {
     float: right;
     width: 125px;
 
+}
+
+.socialmedia img {
+    width: 50px;
+    height: auto;
 }
