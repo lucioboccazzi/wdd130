@@ -60,7 +60,7 @@ article {
     border: 2px black solid;
     background-color: var(--secundary-color);
     width: 100%;
-    color: var(--accent2-color)
+    color: var(--accent2-color);
 }
 
 .hero img {
