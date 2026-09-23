@@ -66,6 +66,9 @@ article {
 footer {
     color: black;
     background-color: var(--background-color-used);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .socialmedia a {
@@ -113,4 +116,66 @@ footer {
 .socialmedia img {
     width: 50px;
     height: auto;
+    padding: 2px;
+}
+
+/* History Section */
+
+.history {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.history h2 {
+    font-weight: 700;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    align-items: center;
+}
+
+.history-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    text-align: left;
+    color: #333;
+}
+
+.history-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Adventure Section */
+
+.adventure {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.adventure-grid {
+    display: flex;
+}
+
+.adventure img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.adventure h2 {
+    margin-bottom: 10px;
 }
