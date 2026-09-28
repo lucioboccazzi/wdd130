@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 
 <body>
@@ -16,27 +16,41 @@
     <main>
 
         <form>
+            <fieldset>
+                <h2>Contact Information:</h2>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
 
-            <h2>Contact Information:</h2>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" required>
-            <label for="useremail">Email:</label>
-            <input type="email" id="useremail" name="useremail" required>
+            <fieldset>
+                <h2>Questions</h2>
 
-            <h2>Questions</h2>
+                <div class="form-item column1">
+                    <label for="favoritebrowser">What is your favorite browser?</label>
+                    <select name="favoritebrowser" id="favoritebrowser">
+                        <option value="chrome">Google Chrome</option>
+                        <option value="edge">Microsoft Edge</option>
+                        <option value="safari">Safari</option>
+                    </select>
+                </div>
 
-            <label for="favoritebrowser">What is your favorite browser?</label>
-            <select name="favoritebrowser" id="favoritebrowser">
-                <option value="chrome">Google Chrome</option>
-                <option value="edge">Microsoft Edge</option>
-                <option value="safari">Safari</option>
-            </select>
+                <div class="form-item column1">
+                    <label><input type="checkbox" id="pet" name="pet">Do you have a pet?</label>
+                </div>
 
-            <label><input type="checkbox" id="pet" name="pet">Do you have a pet?</label>
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived in:</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                      placeholder="Argentina, Chile, USA"></textarea>
+                </div>
 
-            <label for="feedback">List the places you have lived in:</label>
-            <textarea id="feedback" name="feedback" rows="4"
-              placeholder="Argentina, Chile, USA"></textarea>
+            </fieldset>
 
             <button type="submit">Submit Poll</button>
         </form>
