@@ -126,3 +126,8 @@
 .newsletter button:focus {
     background-color: var(--accent1-color);
 }
+
+.features img {
+    width: 500px;
+    height: auto;
+}
